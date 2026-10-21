@@ -3,6 +3,7 @@
 ## Wed 21 Oct 2026
 
 - Done (late Tue / early Wed): Created issues #1 to #7 and a public Kanban board; #1 and #2 closed.
+    Commit mistakenly labelled #3 was for the progress log (#7).
 - Next: Render “Hello, world!” (#3), then notebook 01 (#4, #5).
 
 ## Tue 20 Oct 2026
