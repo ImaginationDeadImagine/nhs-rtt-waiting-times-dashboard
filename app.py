@@ -3,5 +3,5 @@
 import streamlit as st
 
 st.title("NHS Waiting Times for Specialties in England")
-st.write("The dashboard shows waiting time quartiles for various medical and surgical specialties in England for August 2026.")
+st.write("This dashboard shows waiting time quartiles for various medical and surgical specialties in England for August 2026.")
 
