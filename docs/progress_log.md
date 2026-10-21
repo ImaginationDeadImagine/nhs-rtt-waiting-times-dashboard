@@ -1,5 +1,21 @@
 # Progress Log
 
+## Wed 21 Oct 2026 (evening)
+
+- Done:
+  - Deployed minimal Streamlit app to Render (#3).
+  - Loaded the national RTT CSV in notebook 01, kept Part_2 and removed the Total rows (#4).
+  - Validated the filter two ways, in pandas and an Excel pivot: both give 7,189,213 patients.
+  - Investigated blank commissioner parents (2.24% of patients): commissioning hubs, NHS England regions and non-English commissioners (NONC).
+  - Built a commissioner_group column with 59 groups and no patients lost.
+- Next:
+  - Decide the shape of the slim processed file and save it to data/processed/v1/ (#5).
+  -  Percentiles and the T&O worked example.
+  -  Tutor (Vasi Pavaloi) has confirmed project extension time to end of Sunday.
+- Stuck or unsure:
+  - Blank commissioner parents were a lookup gap, not bad data.
+  - Still deciding how ICB comparisons should show groups that aren’t ICBs.
+
 ## Wed 21 Oct 2026
 
 - Done (late Tue / early Wed): Created issues #1 to #7 and a public Kanban board; #1 and #2 closed.
