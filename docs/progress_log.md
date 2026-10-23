@@ -1,5 +1,24 @@
 # Progress Log
 
+## Thu 22 Oct 2026
+
+- Done:
+  - Built the slim processed table (ICB group × specialty, 1,181 rows × 110 columns) and saved it as data/processed/v1/icb_specialty_waits.csv (#5). Validated it with four checks: no duplicate groups, a spot check against the full table (NW hub T&O = 12; a large London ICB = 38,478), Total All unchanged at 7,189,213, and week bands equal to the total, so every patient has a known clock start.
+  - Wrote and tested percentile_band (calculated T&O, England: 25th percentile in the 6-7 week band, median in 13-14, 75th in 25-26; empty group returns “No data”) (#8).
+  - Decided to test H1 and H2, and to treat H3 (trust-level list size) as a stretch goal
+  - Deadline confirmed by tutor as elastic to the end of Sunday.
+- Next:
+  - Check whether the 36 ICB parent names in the data match the 36 ICBs on the NHS.uk list.
+  - Create 02_percentiles.ipynb that reads the processed file.
+  - Helper to get the band counts for a specialty and area.
+  - Friendly band labels. % waiting under 18 weeks.
+  - First version of the app with dropdowns.
+  - Write H1 and H2 in the README.
+- Stuck or unsure:
+  - GitHub board: #8 repeatedly disappears after being added or moved to Done; suspect a workflow or view filter (columns showed counts like 3/3).
+  - Recreated the issue by mistake (#9, closed as duplicate).
+  - #3 and #4 are finished but still open in In progress.
+
 ## Wed 21 Oct 2026 (evening)
 
 - Done:
